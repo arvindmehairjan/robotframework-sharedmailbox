@@ -3,7 +3,7 @@ from robot.api.deco import keyword, library
 import datetime
 
 @library
-class LastEmailOfMailbox(object):
+class SharedMailbox(object):
     ROBOT_LIBRARY_SCOPE = 'TEST CASE'
 
     @keyword('Get The Last Email')
